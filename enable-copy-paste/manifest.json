@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Ghost Input",
+  "version": "1.0",
+  "description": "System integrity tools by Hanish.",
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
